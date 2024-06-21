@@ -5,7 +5,7 @@ import localFont from "next/font/local"
 import {cn} from "../lib/utils"
 
 const headingFont = localFont({
-    src: "../public/font.woff2"
+    src: "../public/fonts/font.woff2"
 })
 
 export const Logo = () => {
@@ -15,14 +15,14 @@ export const Logo = () => {
             <Image
                 src="/logo.svg"
                 alt="Logo"
-                height={30}
-                width={30}
+                height={50}
+                width={50}
                 />
                 <p className={cn(
                     "text-lg text-neutral-700 pb-1"
                     ,headingFont.className,
                     )}>
-                    TmT
+                    TMT
                 </p>
         </div>
         </Link>
