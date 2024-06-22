@@ -24,7 +24,7 @@ const textFont = Poppins({
         "900"
     ]
 });
-
+//root page
 const MarketingPage = () => {
     return(
         <div className="flex items-center justify-center flex-col">
